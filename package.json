@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "menu-game": "bin/menu-game.js"
+    "menu-game": "bin/menu-game.js",
+    "brain-scm": "bin/brain-scm.js",
+    "brain-progression": "bin/brain-progression.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +15,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
   }
 }
